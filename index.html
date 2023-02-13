@@ -7,19 +7,27 @@
   <title>The Last of Us</title>
 </head>
 <body>
-  <header>
-    <img src="images/hbo logo.svg" width="200">
 
-    <nav>
+  <ul>
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
+  </ul>
+
+
+  <header role="banner">
+    <img src="images/hbo-logo.svg" alt="" role="presentaion" width="200"/>
+
+    <nav id="nav" role="navigation">
       <ul>
-        <li><a href="#">About the Show</a></li>
-        <li><a href="#">Featured Characters</a></li>
+        <li><a href="#about">About the Show</a></li>
+        <li><a href="#characters">Featured Characters</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
+
+  <main id="main" role="main">
+    <section id="#about">
         <img src="images/the-last-of-us.jpeg" alt="Two main characters of the Last of Us" width="800"/>
         
         <h1>The Last of Us</h1>
@@ -29,9 +37,10 @@
         <p>A series based on the critically acclaimed video game -- and starring Pedro Pascal and Bella Ramsey, among others -- is available now on HBO and HBO Max.</p>
     </section>
 
-    <section>
 
-      <h1>Featured characters</h1>
+    <section id="characters">
+
+      <h2>Featured characters</h2>
 
       <article>
         <h3>Joel</h3>
@@ -41,21 +50,21 @@
       </article>
 
       <article>
-        <h4>Ellie</h4>
-        <img src="ellie-512x512.webp" alt="" />
+        <h3>Ellie</h3>
+        <img src="images/ellie-512x512.webp" alt="" />
         <p>A 14-year old orphan who has never known anything but a ravaged planet, struggles to balance her instinct for anger and defiance with her need for connection and belonging… as well as the newfound reality that she may be the key to saving the world.</p>
         <a href="#">Read more</a>
       </article>
 
       <article>
-        <h5>Marlene</h5>
+        <h3>Marlene</h3>
         <img src="images/marlene-512x512.webp" alt="" />
         <p>Leader of the Fireflies, a resistance movement struggling for freedom against an oppressive military regime. (Dandridge voiced the Marlene character in “The Last of Us” and “The Last of Us Part II” video games.)</p>
         <a href="#">Read more</a>
       </article>  
 
       <article>
-          <h6>Tommy</h6>
+          <h3>Tommy</h3>
           <img src="images/tommy-512x512.webp" alt="" />
           <p>Joel’s younger brother, a former soldier who hasn’t lost his sense of idealism and hope for a better world.</p>
           <a href="#">Read more</a>
@@ -64,7 +73,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer role="footer">
     <p><small>&copy HBO 2023</small></p>
   </footer>
 </body>
